@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{1febce85-43c0-418f-b07e-13e95c7635f4}"
+       Name="TileTitleColor"
+       DisplayName="Tile Title Color"
+       Type="Choice"
+       EnforceUniqueValues="FALSE"
+       Required="FALSE"
+       Format="Dropdown"
+       FillInChoice="FALSE"
+       Group="Fancy Tiles Columns">
+      <Default>Black</Default>
+      <CHOICES>
+        <CHOICE>Black</CHOICE>
+        <CHOICE>White</CHOICE>
+        <CHOICE>Blue</CHOICE>
+        <CHOICE>Red</CHOICE>
+      </CHOICES>
+  </Field>
+</Elements>

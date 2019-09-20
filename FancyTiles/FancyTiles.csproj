@@ -1,0 +1,133 @@
+﻿<Project ToolsVersion="16.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{77C5BEB0-6F06-4B25-96B1-F7F9A9BAF4B4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FancyTiles</RootNamespace>
+    <AssemblyName>FancyTiles</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.1</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>12.2</MinimumOfficeToolsVersion>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{a2995bb0-4642-43e0-a3bf-c08bb0449b6e}</AppFeaturePartId>
+    <WspPartId>{256a1e41-f139-4648-ae38-0b061b7099b6}</WspPartId>
+    <WorkflowPartId>{ab0f3ffd-7900-4f39-a008-0be5a9a95966}</WorkflowPartId>
+    <CspkgPartId>{f7604b6c-a33d-4e6c-bd97-554665c0e013}</CspkgPartId>
+    <SqlPackagePartId>{133cb157-4fd2-4ae2-8d5b-d9a84ca4b7b0}</SqlPackagePartId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Lists\FancyTilesConfig\Elements.xml" />
+    <Content Include="Lists\FancyTilesConfig\FancyTilesConfigInstance\Elements.xml" />
+    <Content Include="Lists\FancyTilesConfig\Schema.xml" />
+    <Content Include="Pages\Fancy_Tiles.aspx" />
+    <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Site Columns\GroupingKeyword\Elements.xml" />
+    <Content Include="Site Columns\ImageURL\Elements.xml" />
+    <Content Include="Site Columns\TileTitleColor\Elements.xml" />
+    <Content Include="WebParts\Fancy Tiles\Elements.xml">
+      <OpcRelationship>feature-elementmanifest</OpcRelationship>
+    </Content>
+    <None Include="Lists\FancyTilesConfig\FancyTilesConfigInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5a8e93fd-395b-4f68-bed5-461f22ec3bd6}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\FancyTilesConfig\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d4bd02f9-97d0-45d3-b81c-7b632d7309d9}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{69caeac2-c34a-40ad-8160-e0b65ceca61b}</SharePointProjectItemId>
+    </None>
+    <Content Include="Pages\Elements.xml" />
+    <Content Include="Pages\Default.aspx" />
+    <None Include="Site Columns\GroupingKeyword\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1534e382-aef7-48dc-825e-af209e6634a9}</SharePointProjectItemId>
+    </None>
+    <None Include="Site Columns\ImageURL\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ba5fe691-feab-48a9-9454-1f4bc590f035}</SharePointProjectItemId>
+    </None>
+    <None Include="Site Columns\TileTitleColor\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f434b72a-8ba6-4d53-8801-c84c0ecd9a8c}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\Fancy Tiles\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2deb08f1-629e-4c9a-99fe-da5c7e952525}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\jquery-1.9.1.min.map" />
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{133cb157-4fd2-4ae2-8d5b-d9a84ca4b7b0}</SharePointProjectItemId>
+    </None>
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\App.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d08b4163-19e3-45d9-bb85-bf52428aea32}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+    <Content Include="Content\App.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AppIcon.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1b1b0668-c101-451a-99cc-44a5b4f36ce1}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{5205ffb9-b534-4aad-8f53-7f481d05a202}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{a526401c-0b57-4276-874a-b85fe25d6cb2}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

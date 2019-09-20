@@ -1,0 +1,5 @@
+C:\Users\j.schwab\source\repos\FancyTiles\FancyTiles\bin\Debug\FancyTiles.pdb
+C:\Users\j.schwab\source\repos\FancyTiles\FancyTiles\obj\Debug\FancyTiles.csprojAssemblyReference.cache
+C:\Users\j.schwab\source\repos\FancyTiles\FancyTiles\obj\Debug\FancyTiles.csproj.CoreCompileInputs.cache
+C:\Users\j.schwab\source\repos\FancyTiles\FancyTiles\obj\Debug\FancyTiles.dll
+C:\Users\j.schwab\source\repos\FancyTiles\FancyTiles\obj\Debug\FancyTiles.pdb

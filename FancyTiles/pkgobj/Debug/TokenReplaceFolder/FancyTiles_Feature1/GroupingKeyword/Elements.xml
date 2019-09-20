@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{7da75379-ec61-4ea7-9ddb-030876566ba2}"
+       Name="GroupingKeyword"
+       DisplayName="Grouping Keyword"
+       Type="Text"
+       Required="FALSE"
+       Group="Fancy Tiles Columns">
+  </Field>
+</Elements>
