@@ -1,15 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
-  <ClientWebPart Name="Fancy Tiles" Title="Fancy Tiles Title" Description="Fancy Tiles Description" DefaultWidth="300" DefaultHeight="200">
+  <ClientWebPart Name="Fancy Tiles" Title="Fancy Tiles" Description="Web Part to show the Fancy Tiles list items." DefaultWidth="300" DefaultHeight="200">
 
     <!-- Content element identifies the location of the page that will render inside the client web part
          Properties are referenced on the query string using the pattern _propertyName_
          Example: Src="~appWebUrl/Pages/ClientWebPart1.aspx?Property1=_property1_" -->
-    <Content Type="html" Src="~appWebUrl/Pages/Fancy_Tiles.aspx?{StandardTokens}" />
+    <Content Type="html" Src="~appWebUrl/Pages/Fancy_Tiles.aspx?{StandardTokens}&amp;Keyword=_Keyword_" />
 
     <!-- Define properties in the Properties element.
          Remember to put Property Name on the Src attribute of the Content element above. -->
     <Properties>
+      <Property Name="Keyword" Type="string" RequiresDesignerPermission="true" DefaultValue="" WebDisplayName="Keyword" WebDescription="Fancy Tile keyword to specify which tiles to appear" WebCategory="Fancy Tiles Keyword" />
     </Properties>
 
   </ClientWebPart>
