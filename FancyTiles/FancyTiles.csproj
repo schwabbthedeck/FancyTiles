@@ -42,23 +42,72 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="Lists\FancyTilesConfig\Elements.xml" />
-    <Content Include="Lists\FancyTilesConfig\FancyTilesConfigInstance\Elements.xml" />
-    <Content Include="Lists\FancyTilesConfig\Schema.xml" />
-    <Content Include="Pages\Fancy_Tiles.aspx" />
+    <Content Include="Columns\GroupKeyword\Elements.xml" />
+    <Content Include="Columns\HoverColorBackground\Elements.xml" />
+    <Content Include="Columns\HoverTextColor\Elements.xml" />
+    <Content Include="Columns\HoverTextDirection\Elements.xml" />
+    <Content Include="Columns\HoverText\Elements.xml" />
+    <Content Include="Columns\ImageLink\Elements.xml" />
+    <Content Include="Columns\TileOrder\Elements.xml" />
+    <Content Include="Columns\TileClickLink\Elements.xml" />
+    <Content Include="Columns\TitleColorBackground\Elements.xml" />
+    <Content Include="Columns\TitleColor\Elements.xml" />
+    <Content Include="ContentType\FancyTilesItem\Elements.xml" />
+    <Content Include="Images\UPDATEMEFancyTileExampleScreenShot.png" />
+    <Content Include="Images\FancyTileProperty.png" />
+    <Content Include="Images\SampleImages\day18-floppy-66a80a929d314a437f9e663ca0b3e5a0.png" />
+    <Content Include="Images\SampleImages\day38-macintosh-23aac16b99601af0ca3d2b48c0494528.png" />
+    <Content Include="Images\SampleImages\day39-pc-20f462fca3cc4b5921e1fc4e0e496727.png" />
+    <Content Include="Images\SampleImages\day40-powerbook-100-322609d23c79b57ed69c27c2de4ebc84.png" />
+    <Content Include="Images\SampleImages\day41-desktop-beb31f3da4ba1863eec1fc6f8e890e4e.png" />
+    <Content Include="Images\SampleImages\day42-imac-b1d1f14f4292ef60a2479f5d6f665e14.png" />
+    <Content Include="Lists\FancyTilesTemplate\Elements.xml" />
+    <Content Include="Lists\FancyTilesTemplate\FancyTilesList\Elements.xml" />
+    <Content Include="Lists\FancyTilesTemplate\Schema.xml" />
+    <Content Include="Pages\FancyTilesWebPart.aspx" />
     <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
-    <Content Include="Site Columns\GroupingKeyword\Elements.xml" />
-    <Content Include="Site Columns\ImageURL\Elements.xml" />
-    <Content Include="Site Columns\TileTitleColor\Elements.xml" />
-    <Content Include="WebParts\Fancy Tiles\Elements.xml">
+    <Content Include="Fancy Tiles Web Part\Elements.xml">
       <OpcRelationship>feature-elementmanifest</OpcRelationship>
     </Content>
-    <None Include="Lists\FancyTilesConfig\FancyTilesConfigInstance\SharePointProjectItem.spdata">
+    <None Include="Columns\GroupKeyword\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b749c596-2c9b-49f9-805a-8f0ed04f43ec}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\HoverColorBackground\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a82ed83d-5b8e-4208-bbd4-912ef828dd49}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\HoverTextColor\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{09d886b4-6124-4267-97f2-1f401648bfa0}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\HoverTextDirection\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{218159f8-fe72-4b96-842c-82fe675c5ba1}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\HoverText\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4123ce28-5c70-48dc-b9c8-1a85ef41dbbc}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\ImageLink\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a81fc868-64fe-4b57-838e-576e0b64ca95}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\TileOrder\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{41e0b52d-a106-4abc-9d21-a31c4684220f}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\TileClickLink\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6ba2f840-791e-4e0a-836f-1556100f82f4}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\TitleColorBackground\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f989b77d-b510-4a37-9ba6-4b6a1a4258e8}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\TitleColor\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{397624d8-3f16-4bfc-8a11-782717945425}</SharePointProjectItemId>
+    </None>
+    <None Include="ContentType\FancyTilesItem\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cdac2932-aeb6-4f35-8d02-b3f98c168d4e}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\FancyTilesTemplate\FancyTilesList\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{5a8e93fd-395b-4f68-bed5-461f22ec3bd6}</SharePointProjectItemId>
     </None>
-    <None Include="Lists\FancyTilesConfig\SharePointProjectItem.spdata">
+    <None Include="Lists\FancyTilesTemplate\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{d4bd02f9-97d0-45d3-b81c-7b632d7309d9}</SharePointProjectItemId>
     </None>
     <None Include="packages.config" />
@@ -67,16 +116,7 @@
     </None>
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
-    <None Include="Site Columns\GroupingKeyword\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{1534e382-aef7-48dc-825e-af209e6634a9}</SharePointProjectItemId>
-    </None>
-    <None Include="Site Columns\ImageURL\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{ba5fe691-feab-48a9-9454-1f4bc590f035}</SharePointProjectItemId>
-    </None>
-    <None Include="Site Columns\TileTitleColor\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{f434b72a-8ba6-4d53-8801-c84c0ecd9a8c}</SharePointProjectItemId>
-    </None>
-    <None Include="WebParts\Fancy Tiles\SharePointProjectItem.spdata">
+    <None Include="Fancy Tiles Web Part\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{2deb08f1-629e-4c9a-99fe-da5c7e952525}</SharePointProjectItemId>
     </None>
   </ItemGroup>
@@ -111,11 +151,11 @@
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
-    <None Include="Features\Feature1\Feature1.feature">
+    <None Include="Features\MainFeature\MainFeature.feature">
       <FeatureId>{a526401c-0b57-4276-874a-b85fe25d6cb2}</FeatureId>
     </None>
-    <None Include="Features\Feature1\Feature1.Template.xml">
-      <DependentUpon>Feature1.feature</DependentUpon>
+    <None Include="Features\MainFeature\MainFeature.Template.xml">
+      <DependentUpon>MainFeature.feature</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

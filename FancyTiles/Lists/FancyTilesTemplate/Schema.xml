@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="FancyTilesTemplate" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/FancyTilesTemplate" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      <ContentType ID="0x01006A2BF43F482D4B17A34B57BBCB92C441" Name="FancyTilesItem" Group="Custom Content Types" Description="Fancy Tiles Item Custom Content Type. Contains all the columns used for a tile item." Inherits="TRUE" Version="0">
+        <FieldRefs>
+          <FieldRef ID="{ed9b04b4-c013-419a-bd40-f1d0456a32ab}" DisplayName="Group Keyword" Required="TRUE" Description="Keyword used to specify what tiles should be shown in the web part." Name="GroupKeyword" />
+          <FieldRef ID="{617ffa17-5f55-45a7-a83e-a79c9fb000d2}" DisplayName="Image Link" Required="TRUE" Description="URL that points to the tile image." Name="ImageLink" Format="Hyperlink" />
+          <FieldRef ID="{64f305e8-a38e-4742-b325-5f3dcee27617}" DisplayName="Tile Click Link" Required="FALSE" Description="Click destination of the tile. If left blank, tile will not have a click action." Name="TileClickLink" Format="Hyperlink" />
+          <FieldRef ID="{3e0b8a84-ed42-4d12-80bc-c6648f61917d}" DisplayName="Title Color" Required="FALSE" Description="The color of the tile title." Name="TitleColor" />
+          <FieldRef ID="{caedbc8d-c177-4474-ba28-445f04ccc701}" DisplayName="Title Color Background" Required="FALSE" Description="The color that will be shown behind the tile title. Shown with an opacity of 75 percent." Name="TitleColorBackground" />
+          <FieldRef ID="{a66816ca-ec76-4983-a1e9-c0ef2ac55268}" DisplayName="Hover Text" Required="FALSE" Description="Text shown on tile when user hovers on the tile." Name="HoverText" />
+          <FieldRef ID="{1102c940-b200-425c-b270-26040c68009a}" DisplayName="Hover Text Direction" Required="FALSE" Description="Direction from which text will appear when user hovers on tile. None means no text will show when user hovers over the tile." Name="HoverTextDirection" />
+          <FieldRef ID="{7fafd9b4-55e5-40d4-b603-3e1f48a1dad5}" DisplayName="Hover Text Color" Required="FALSE" Description="The color of the hover text." Name="HoverTextColor" />
+          <FieldRef ID="{985aab1d-3f65-412f-9f3a-8f839e0d3dd6}" DisplayName="Hover Color Background" Required="FALSE" Description="The color that will be shown behind the hover text." Name="HoverColorBackground" />
+          <FieldRef ID="{b565ba7d-2fe7-4a84-9480-da3a25d68c6a}" DisplayName="Tile Order" Required="FALSE" Description="Order in which tiles should appear. When left blank, items will default to order in which items are created. A tile with a blank Tile Order field will show before any items with numbers in this field." Name="TileOrder" />
+        </FieldRefs>
+      </ContentType>
+    </ContentTypes>
+    <Fields>
+      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" />
+      <Field ID="{ed9b04b4-c013-419a-bd40-f1d0456a32ab}" Name="GroupKeyword" DisplayName="Group Keyword" Description="Keyword used to specify what tiles should be shown in the web part." Type="Text" Required="TRUE" Group="Custom Site Columns"></Field>
+      <Field ID="{617ffa17-5f55-45a7-a83e-a79c9fb000d2}" Name="ImageLink" DisplayName="Image Link" Description="URL that points to the tile image." Type="URL" Format="Hyperlink" Required="TRUE" Group="Custom Site Columns"></Field>
+      <Field ID="{64f305e8-a38e-4742-b325-5f3dcee27617}" Name="TileClickLink" DisplayName="Tile Click Link" Description="Click destination of the tile. If left blank, tile will not have a click action." Type="URL" Format="Hyperlink" Required="FALSE" Group="Custom Site Columns"></Field>
+      <Field ID="{3e0b8a84-ed42-4d12-80bc-c6648f61917d}" Name="TitleColor" DisplayName="Title Color" Description="The color of the tile title." Type="Choice" Required="FALSE" Group="Custom Site Columns">
+        <CHOICES>
+          <CHOICE>Black</CHOICE>
+          <CHOICE>White</CHOICE>
+          <CHOICE>Navy</CHOICE>
+          <CHOICE>Grey</CHOICE>
+        </CHOICES>
+        <Default>Black</Default>
+      </Field>
+      <Field ID="{caedbc8d-c177-4474-ba28-445f04ccc701}" Name="TitleColorBackground" DisplayName="Title Color Background" Description="The color that will be shown behind the tile title. Shown with an opacity of 75 percent." Type="Choice" Required="FALSE" Group="Custom Site Columns">
+        <CHOICES>
+          <CHOICE>Black</CHOICE>
+          <CHOICE>White</CHOICE>
+        </CHOICES>
+        <Default>White</Default>
+      </Field>
+      <Field ID="{a66816ca-ec76-4983-a1e9-c0ef2ac55268}" Name="HoverText" DisplayName="Hover Text" Description="Text shown on tile when user hovers on the tile." Type="Text" Required="FALSE" Group="Custom Site Columns"></Field>
+      <Field ID="{1102c940-b200-425c-b270-26040c68009a}" Name="HoverTextDirection" DisplayName="Hover Text Direction" Description="Direction from which text will appear when user hovers on tile. None means no text will show when user hovers over the tile." Type="Choice" Required="FALSE" Group="Custom Site Columns">
+        <CHOICES>
+          <CHOICE>None</CHOICE>
+          <CHOICE>Left</CHOICE>
+          <CHOICE>Right</CHOICE>
+          <CHOICE>Bottom</CHOICE>
+          <CHOICE>Top</CHOICE>
+        </CHOICES>
+        <Default>None</Default>
+      </Field>
+      <Field ID="{7fafd9b4-55e5-40d4-b603-3e1f48a1dad5}" Name="HoverTextColor" DisplayName="Hover Text Color" Description="The color of the hover text." Type="Choice" Required="FALSE" Group="Custom Site Columns">
+        <CHOICES>
+          <CHOICE>Black</CHOICE>
+          <CHOICE>White</CHOICE>
+          <CHOICE>Navy</CHOICE>
+          <CHOICE>Grey</CHOICE>
+        </CHOICES>
+        <Default>Black</Default>
+      </Field>
+      <Field ID="{985aab1d-3f65-412f-9f3a-8f839e0d3dd6}" Name="HoverColorBackground" DisplayName="Hover Color Background" Description="The color that will be shown behind the hover text." Type="Choice" Required="FALSE" Group="Custom Site Columns">
+        <CHOICES>
+          <CHOICE>Black</CHOICE>
+          <CHOICE>White</CHOICE>
+        </CHOICES>
+        <Default>White</Default>
+      </Field>
+      <Field ID="{b565ba7d-2fe7-4a84-9480-da3a25d68c6a}" Name="TileOrder" DisplayName="Tile Order" Description="Order in which tiles should appear. When left blank, items will default to order in which items are created. A tile with a blank Tile Order field will show before any items with numbers in this field." Type="Number" Required="FALSE" Group="Custom Site Columns"></Field>
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="GroupKeyword" />
+          <FieldRef Name="ImageLink" />
+          <FieldRef Name="TileClickLink" />
+          <FieldRef Name="TitleColor" />
+          <FieldRef Name="TitleColorBackground" />
+          <FieldRef Name="HoverText" />
+          <FieldRef Name="HoverTextDirection" />
+          <FieldRef Name="HoverTextColor" />
+          <FieldRef Name="HoverColorBackground" />
+          <FieldRef Name="TileOrder" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

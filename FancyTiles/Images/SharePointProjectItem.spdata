@@ -3,5 +3,13 @@
   <Files>
     <ProjectItemFile Source="Elements.xml" Target="Images\" Type="ElementManifest" />
     <ProjectItemFile Source="AppIcon.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="SampleImages\day42-imac-b1d1f14f4292ef60a2479f5d6f665e14.png" Target="Images\SampleImages\" Type="ElementFile" />
+    <ProjectItemFile Source="SampleImages\day18-floppy-66a80a929d314a437f9e663ca0b3e5a0.png" Target="Images\SampleImages\" Type="ElementFile" />
+    <ProjectItemFile Source="SampleImages\day38-macintosh-23aac16b99601af0ca3d2b48c0494528.png" Target="Images\SampleImages\" Type="ElementFile" />
+    <ProjectItemFile Source="SampleImages\day39-pc-20f462fca3cc4b5921e1fc4e0e496727.png" Target="Images\SampleImages\" Type="ElementFile" />
+    <ProjectItemFile Source="SampleImages\day40-powerbook-100-322609d23c79b57ed69c27c2de4ebc84.png" Target="Images\SampleImages\" Type="ElementFile" />
+    <ProjectItemFile Source="SampleImages\day41-desktop-beb31f3da4ba1863eec1fc6f8e890e4e.png" Target="Images\SampleImages\" Type="ElementFile" />
+    <ProjectItemFile Source="UPDATEMEFancyTileExampleScreenShot.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="FancyTileProperty.png" Target="Images\" Type="ElementFile" />
   </Files>
 </ProjectItem>

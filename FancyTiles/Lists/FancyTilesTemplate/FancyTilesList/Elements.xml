@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Fancy Tiles List" OnQuickLaunch="TRUE" TemplateType="10001" Url="Lists/FancyTilesList" Description="List for the Fancy Tiles Web Part App. Used to manage all items appearing in Fancy Tiles Web Parts.">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Example One</Field>
+          <Field Name="GroupKeyword">Group One</Field>
+          <Field Name="ImageLink">~sitecollection/FancyTiles/Images/SampleImages/day40-powerbook-100-322609d23c79b57ed69c27c2de4ebc84.png, Powerbook</Field>
+          <Field Name="TileClickLink">https://www.google.com, Google</Field>
+          <Field Name="TileOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Example Two</Field>
+          <Field Name="GroupKeyword">Group One</Field>
+          <Field Name="ImageLink">~sitecollection/FancyTiles/Images/SampleImages/day39-pc-20f462fca3cc4b5921e1fc4e0e496727.png, PC</Field>
+          <Field Name="TitleColor">White</Field>
+          <Field Name="TitleColorBackground">Black</Field>
+          <Field Name="TileOrder">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Example Three</Field>
+          <Field Name="GroupKeyword">Group One</Field>
+          <Field Name="ImageLink">~sitecollection/FancyTiles/Images/SampleImages/day38-macintosh-23aac16b99601af0ca3d2b48c0494528.png, Macintosh</Field>
+          <Field Name="TitleColor">Grey</Field>
+          <Field Name="HoverTextDirection">Left</Field>
+          <Field Name="HoverText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Field>
+          <Field Name="TileOrder">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Example Four</Field>
+          <Field Name="GroupKeyword">Group One</Field>
+          <Field Name="ImageLink">~sitecollection/FancyTiles/Images/SampleImages/day42-imac-b1d1f14f4292ef60a2479f5d6f665e14.png, Macintosh</Field>
+          <Field Name="TitleColor">Navy</Field>
+          <Field Name="HoverTextDirection">Top</Field>
+          <Field Name="HoverText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Field>
+          <Field Name="TileOrder">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Example Five</Field>
+          <Field Name="GroupKeyword">Group One</Field>
+          <Field Name="ImageLink">~sitecollection/FancyTiles/Images/SampleImages/day41-desktop-beb31f3da4ba1863eec1fc6f8e890e4e.png, Macintosh</Field>
+          <Field Name="TitleColor">Grey</Field>
+          <Field Name="TitleColorBackground">Black</Field>
+          <Field Name="HoverTextDirection">Right</Field>
+          <Field Name="HoverText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Field>
+          <Field Name="TileOrder">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Example Six</Field>
+          <Field Name="GroupKeyword">Group One</Field>
+          <Field Name="ImageLink">~sitecollection/FancyTiles/Images/SampleImages/day18-floppy-66a80a929d314a437f9e663ca0b3e5a0.png, Macintosh</Field>
+          <Field Name="HoverTextDirection">Bottom</Field>
+          <Field Name="HoverText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Field>
+          <Field Name="HoverTextColor">White</Field>
+          <Field Name="HoverColorBackground">Black</Field>
+          <Field Name="TileOrder">6</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

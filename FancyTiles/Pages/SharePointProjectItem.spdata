@@ -3,6 +3,6 @@
   <Files>
     <ProjectItemFile Source="Elements.xml" Target="Pages\" Type="ElementManifest" />
     <ProjectItemFile Source="Default.aspx" Target="Pages\" Type="ElementFile" />
-    <ProjectItemFile Source="Fancy_Tiles.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="FancyTilesWebPart.aspx" Target="Pages\" Type="ElementFile" />
   </Files>
 </ProjectItem>
