@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{7fafd9b4-55e5-40d4-b603-3e1f48a1dad5}"
+       Name="HoverTextColor"
+       DisplayName="Hover Text Color"
+       Description="The color of the hover text."
+       Type="Choice"
+       Required="FALSE"
+       Group="Custom Site Columns">
+    <CHOICES>
+      <CHOICE>Black</CHOICE>
+      <CHOICE>White</CHOICE>
+      <CHOICE>Navy</CHOICE>
+      <CHOICE>Grey</CHOICE>
+    </CHOICES>
+    <Default>Black</Default>
+  </Field>
+</Elements>

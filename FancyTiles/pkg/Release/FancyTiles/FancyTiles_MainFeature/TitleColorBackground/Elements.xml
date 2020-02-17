@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{caedbc8d-c177-4474-ba28-445f04ccc701}"
+       Name="TitleColorBackground"
+       DisplayName="Title Color Background"
+       Description="The color that will be shown behind the tile title. Shown with an opacity of 75 percent."
+       Type="Choice"
+       Required="FALSE"
+       Group="Custom Site Columns">
+    <CHOICES>
+      <CHOICE>Black</CHOICE>
+      <CHOICE>White</CHOICE>
+    </CHOICES>
+    <Default>White</Default>
+  </Field>
+</Elements>

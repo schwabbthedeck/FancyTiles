@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{a66816ca-ec76-4983-a1e9-c0ef2ac55268}"
+       Name="HoverText"
+       DisplayName="Hover Text"
+       Description="Text shown on tile when user hovers on the tile."
+       Type="Text"
+       Required="FALSE"
+       Group="Custom Site Columns">
+  </Field>
+</Elements>

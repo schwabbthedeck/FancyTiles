@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{3e0b8a84-ed42-4d12-80bc-c6648f61917d}"
+       Name="TitleColor"
+       DisplayName="Title Color"
+       Description="The color of the tile title."
+       Type="Choice"
+       Required="FALSE"
+       Group="Custom Site Columns">
+    <CHOICES>
+      <CHOICE>Black</CHOICE>
+      <CHOICE>White</CHOICE>
+      <CHOICE>Navy</CHOICE>
+      <CHOICE>Grey</CHOICE>
+    </CHOICES>
+    <Default>Black</Default>
+  </Field>
+</Elements>

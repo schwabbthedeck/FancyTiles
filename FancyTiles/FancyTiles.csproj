@@ -53,7 +53,9 @@
     <Content Include="Columns\TitleColorBackground\Elements.xml" />
     <Content Include="Columns\TitleColor\Elements.xml" />
     <Content Include="ContentType\FancyTilesItem\Elements.xml" />
-    <Content Include="Images\UPDATEMEFancyTileExampleScreenShot.png" />
+    <Content Include="Content\webpartstyles.css" />
+    <Content Include="Images\AppIcon2x.png" />
+    <Content Include="Images\FancyTileExampleScreenShot.png" />
     <Content Include="Images\FancyTileProperty.png" />
     <Content Include="Images\SampleImages\day18-floppy-66a80a929d314a437f9e663ca0b3e5a0.png" />
     <Content Include="Images\SampleImages\day38-macintosh-23aac16b99601af0ca3d2b48c0494528.png" />
@@ -65,12 +67,11 @@
     <Content Include="Lists\FancyTilesTemplate\FancyTilesList\Elements.xml" />
     <Content Include="Lists\FancyTilesTemplate\Schema.xml" />
     <Content Include="Pages\FancyTilesWebPart.aspx" />
-    <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
-    <Content Include="Scripts\jquery-1.9.1.js" />
-    <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Fancy Tiles Web Part\Elements.xml">
       <OpcRelationship>feature-elementmanifest</OpcRelationship>
     </Content>
+    <Content Include="Scripts\jquery-3.4.1.js" />
+    <Content Include="Scripts\jquery-3.4.1.min.js" />
     <None Include="Columns\GroupKeyword\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{b749c596-2c9b-49f9-805a-8f0ed04f43ec}</SharePointProjectItemId>
     </None>
@@ -121,19 +122,19 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Scripts\jquery-1.9.1.min.map" />
+    <None Include="Scripts\jquery-3.4.1.min.map" />
     <None Include="Scripts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{133cb157-4fd2-4ae2-8d5b-d9a84ca4b7b0}</SharePointProjectItemId>
     </None>
     <Content Include="Scripts\Elements.xml" />
-    <Content Include="Scripts\App.js" />
+    <Content Include="Scripts\WebPart.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Content\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{d08b4163-19e3-45d9-bb85-bf52428aea32}</SharePointProjectItemId>
     </None>
     <Content Include="Content\Elements.xml" />
-    <Content Include="Content\App.css" />
+    <Content Include="Content\styles.css" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\AppIcon.png">

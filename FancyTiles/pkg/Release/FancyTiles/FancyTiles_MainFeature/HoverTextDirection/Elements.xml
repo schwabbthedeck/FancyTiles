@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{1102c940-b200-425c-b270-26040c68009a}"
+       Name="HoverTextDirection"
+       DisplayName="Hover Text Direction"
+       Description="Direction from which text will appear when user hovers on tile. None means no text will show when user hovers over the tile."
+       Type="Choice"
+       Required="FALSE"
+       Group="Custom Site Columns">
+    <CHOICES>
+      <CHOICE>None</CHOICE>
+      <CHOICE>Left</CHOICE>
+      <CHOICE>Right</CHOICE>
+      <CHOICE>Bottom</CHOICE>
+      <CHOICE>Top</CHOICE>
+    </CHOICES>
+    <Default>None</Default>
+  </Field>
+</Elements>

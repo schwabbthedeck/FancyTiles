@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Content">
+    <File Path="Content\styles.css" Url="Content/styles.css" ReplaceContent="TRUE" />
+    <File Path="Content\webpartstyles.css" Url="Content/webpartstyles.css" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

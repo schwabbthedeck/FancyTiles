@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Images">
+    <File Path="Images\AppIcon.png" Url="Images/AppIcon.png" ReplaceContent="TRUE" />
+    <File Path="Images\SampleImages\day42-imac-b1d1f14f4292ef60a2479f5d6f665e14.png" Url="Images/SampleImages/day42-imac-b1d1f14f4292ef60a2479f5d6f665e14.png" ReplaceContent="TRUE" />
+    <File Path="Images\SampleImages\day18-floppy-66a80a929d314a437f9e663ca0b3e5a0.png" Url="Images/SampleImages/day18-floppy-66a80a929d314a437f9e663ca0b3e5a0.png" ReplaceContent="TRUE" />
+    <File Path="Images\SampleImages\day38-macintosh-23aac16b99601af0ca3d2b48c0494528.png" Url="Images/SampleImages/day38-macintosh-23aac16b99601af0ca3d2b48c0494528.png" ReplaceContent="TRUE" />
+    <File Path="Images\SampleImages\day39-pc-20f462fca3cc4b5921e1fc4e0e496727.png" Url="Images/SampleImages/day39-pc-20f462fca3cc4b5921e1fc4e0e496727.png" ReplaceContent="TRUE" />
+    <File Path="Images\SampleImages\day40-powerbook-100-322609d23c79b57ed69c27c2de4ebc84.png" Url="Images/SampleImages/day40-powerbook-100-322609d23c79b57ed69c27c2de4ebc84.png" ReplaceContent="TRUE" />
+    <File Path="Images\SampleImages\day41-desktop-beb31f3da4ba1863eec1fc6f8e890e4e.png" Url="Images/SampleImages/day41-desktop-beb31f3da4ba1863eec1fc6f8e890e4e.png" ReplaceContent="TRUE" />
+    <File Path="Images\FancyTileProperty.png" Url="Images/FancyTileProperty.png" ReplaceContent="TRUE" />
+    <File Path="Images\AppIcon2x.png" Url="Images/AppIcon2x.png" ReplaceContent="TRUE" />
+    <File Path="Images\FancyTileExampleScreenShot.png" Url="Images/FancyTileExampleScreenShot.png" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

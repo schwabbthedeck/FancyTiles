@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x01006A2BF43F482D4B17A34B57BBCB92C441" Name="FancyTilesItem" Group="Custom Content Types" Description="Fancy Tiles Item Custom Content Type. Contains all the columns used for a tile item." Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{ed9b04b4-c013-419a-bd40-f1d0456a32ab}" DisplayName="Group Keyword" Required="TRUE" Description="Keyword used to specify what tiles should be shown in the web part." Name="GroupKeyword" />
+      <FieldRef ID="{617ffa17-5f55-45a7-a83e-a79c9fb000d2}" DisplayName="Image Link" Required="TRUE" Description="URL that points to the tile image." Name="ImageLink" Format="Hyperlink" />
+      <FieldRef ID="{64f305e8-a38e-4742-b325-5f3dcee27617}" DisplayName="Tile Click Link" Required="FALSE" Description="Click destination of the tile. If left blank, tile will not have a click action." Name="TileClickLink" Format="Hyperlink" />
+      <FieldRef ID="{3e0b8a84-ed42-4d12-80bc-c6648f61917d}" DisplayName="Title Color" Required="FALSE" Description="The color of the tile title." Name="TitleColor" />
+      <FieldRef ID="{caedbc8d-c177-4474-ba28-445f04ccc701}" DisplayName="Title Color Background" Required="FALSE" Description="The color that will be shown behind the tile title. Shown with an opacity of 75 percent." Name="TitleColorBackground" />
+      <FieldRef ID="{a66816ca-ec76-4983-a1e9-c0ef2ac55268}" DisplayName="Hover Text" Required="FALSE" Description="Text shown on tile when user hovers on the tile." Name="HoverText" />
+      <FieldRef ID="{1102c940-b200-425c-b270-26040c68009a}" DisplayName="Hover Text Direction" Required="FALSE" Description="Direction from which text will appear when user hovers on tile. None means no text will show when user hovers over the tile." Name="HoverTextDirection" />
+      <FieldRef ID="{7fafd9b4-55e5-40d4-b603-3e1f48a1dad5}" DisplayName="Hover Text Color" Required="FALSE" Description="The color of the hover text." Name="HoverTextColor" />
+      <FieldRef ID="{985aab1d-3f65-412f-9f3a-8f839e0d3dd6}" DisplayName="Hover Color Background" Required="FALSE" Description="The color that will be shown behind the hover text." Name="HoverColorBackground" />
+      <FieldRef ID="{b565ba7d-2fe7-4a84-9480-da3a25d68c6a}" DisplayName="Tile Order" Required="FALSE" Description="Order in which tiles should appear. When left blank, items will default to order in which items are created. A tile with a blank Tile Order field will show before any items with numbers in this field." Name="TileOrder" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

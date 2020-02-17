@@ -1,4 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
-  <ListInstance Title="Fancy Tiles Configuration List" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/FancyTilesConfig" Description="This list is to configure your fancy tiles"></ListInstance>
-</Elements>

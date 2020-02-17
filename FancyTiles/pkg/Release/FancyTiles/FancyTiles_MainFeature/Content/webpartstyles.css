@@ -1,0 +1,137 @@
+﻿/* Fancy Tiles web part styles */
+
+#fancy-tiles {
+		height: 100%;
+		width: 100%;
+		overflow: auto;
+}
+
+		#fancy-tiles .tile {
+				height: 150px;
+				width: 150px;
+				position: relative;
+				display: inline-block;
+				margin: 5px;
+				overflow: hidden;
+		}
+
+		/* Title styles */
+		#fancy-tiles .tile-title {
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				padding: 5px;
+		}
+
+				#fancy-tiles .tile-title.black {
+						background-color: rgba(0,0,0,0.75);
+				}
+
+				#fancy-tiles .tile-title.white {
+						background-color: rgba(255,255,255,0.75);
+				}
+
+				#fancy-tiles .tile-title > .white {
+						color: #fff;
+				}
+
+				#fancy-tiles .tile-title > .navy {
+						color: #000080;
+				}
+
+				#fancy-tiles .tile-title > .grey {
+						color: #808080;
+				}
+
+		/* Background image styles */
+		#fancy-tiles .tile-image .background-image-tile {
+				height: 150px;
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+		}
+
+		/* Hover styles */
+		#fancy-tiles .tile:hover {
+				/*border-top-left-radius: 10px;*/
+				/*border-bottom-left-radius: 10px;*/
+				box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+		}
+
+		#fancy-tiles .tile.hover > .hover-card {
+				position: absolute;
+				display: block;
+				background-color: rgba(255,255,255,0.95);
+				padding: 5px;
+				transition: all 0.6s ease;
+		}
+
+		#fancy-tiles .tile.hover.none > .hover-card {
+				display: none;
+		}
+
+		#fancy-tiles .tile.hover.left > .hover-card {
+				left: -100%;
+				top: 0;
+				width: 75%;
+				height: 100%;
+		}
+
+		#fancy-tiles .tile.hover.left:hover > .hover-card {
+				left: 0;
+				transition: all 0.6s ease;
+		}
+
+		#fancy-tiles .tile.hover.right > .hover-card {
+				right: -100%;
+				top: 0;
+				width: 75%;
+				height: 100%;
+		}
+
+		#fancy-tiles .tile.hover.right:hover > .hover-card {
+				right: 0;
+				transition: all 0.6s ease;
+		}
+
+		#fancy-tiles .tile.hover.bottom > .hover-card {
+				bottom: -100%;
+				left: 0;
+				width: 100%;
+				height: 75%;
+		}
+
+		#fancy-tiles .tile.hover.bottom:hover > .hover-card {
+				bottom: 0;
+				transition: all 0.6s ease;
+		}
+
+		#fancy-tiles .tile.hover.top > .hover-card {
+				top: -100%;
+				left: 0;
+				width: 100%;
+				height: 75%;
+		}
+
+		#fancy-tiles .tile.hover.top:hover > .hover-card {
+				top: 0;
+				transition: all 0.6s ease;
+		}
+
+		#fancy-tiles .tile.hover > .hover-card.background-black {
+				background-color: rgba(0,0,0,0.95);
+		}
+
+		#fancy-tiles .tile.hover > .hover-card.text-white {
+				color: #fff;
+		}
+
+		#fancy-tiles .tile.hover > .hover-card.text-navy {
+				color: #000080;
+		}
+
+		#fancy-tiles .tile.hover > .hover-card.text-grey {
+				color: #808080;
+		}
+/* End hover styles */

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="FancyTiles Feature1" Description="SharePoint Add-in Feature" Id="a526401c-0b57-4276-874a-b85fe25d6cb2" Scope="Web" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="Pages\Elements.xml" />
+    <ElementFile Location="Pages\Default.aspx" />
+    <ElementFile Location="Pages\FancyTilesWebPart.aspx" />
+    <ElementManifest Location="Scripts\Elements.xml" />
+    <ElementFile Location="Scripts\WebPart.js" />
+    <ElementFile Location="Scripts\jquery-3.4.1.js" />
+    <ElementFile Location="Scripts\jquery-3.4.1.min.js" />
+    <ElementFile Location="Scripts\jquery-3.4.1.min.map" />
+    <ElementManifest Location="Content\Elements.xml" />
+    <ElementFile Location="Content\styles.css" />
+    <ElementFile Location="Content\webpartstyles.css" />
+    <ElementManifest Location="Images\Elements.xml" />
+    <ElementFile Location="Images\AppIcon.png" />
+    <ElementFile Location="Images\SampleImages\day42-imac-b1d1f14f4292ef60a2479f5d6f665e14.png" />
+    <ElementFile Location="Images\SampleImages\day18-floppy-66a80a929d314a437f9e663ca0b3e5a0.png" />
+    <ElementFile Location="Images\SampleImages\day38-macintosh-23aac16b99601af0ca3d2b48c0494528.png" />
+    <ElementFile Location="Images\SampleImages\day39-pc-20f462fca3cc4b5921e1fc4e0e496727.png" />
+    <ElementFile Location="Images\SampleImages\day40-powerbook-100-322609d23c79b57ed69c27c2de4ebc84.png" />
+    <ElementFile Location="Images\SampleImages\day41-desktop-beb31f3da4ba1863eec1fc6f8e890e4e.png" />
+    <ElementFile Location="Images\FancyTileProperty.png" />
+    <ElementFile Location="Images\AppIcon2x.png" />
+    <ElementFile Location="Images\FancyTileExampleScreenShot.png" />
+    <ElementManifest Location="FancyTilesList\Elements.xml" />
+    <ElementManifest Location="FancyTilesTemplate\Elements.xml" />
+    <ElementFile Location="FancyTilesTemplate\Schema.xml" />
+    <ElementManifest Location="GroupKeyword\Elements.xml" />
+    <ElementManifest Location="HoverColorBackground\Elements.xml" />
+    <ElementManifest Location="HoverText\Elements.xml" />
+    <ElementManifest Location="HoverTextColor\Elements.xml" />
+    <ElementManifest Location="HoverTextDirection\Elements.xml" />
+    <ElementManifest Location="ImageLink\Elements.xml" />
+    <ElementManifest Location="TileClickLink\Elements.xml" />
+    <ElementManifest Location="TileOrder\Elements.xml" />
+    <ElementManifest Location="TitleColor\Elements.xml" />
+    <ElementManifest Location="TitleColorBackground\Elements.xml" />
+    <ElementManifest Location="FancyTilesItem\Elements.xml" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="Pages\Elements.xml" />
+        <ElementManifest Location="Scripts\Elements.xml" />
+        <ElementManifest Location="Content\Elements.xml" />
+        <ElementManifest Location="Images\Elements.xml" />
+        <ElementManifest Location="FancyTilesList\Elements.xml" />
+        <ElementManifest Location="FancyTilesTemplate\Elements.xml" />
+        <ElementManifest Location="GroupKeyword\Elements.xml" />
+        <ElementManifest Location="HoverColorBackground\Elements.xml" />
+        <ElementManifest Location="HoverText\Elements.xml" />
+        <ElementManifest Location="HoverTextColor\Elements.xml" />
+        <ElementManifest Location="HoverTextDirection\Elements.xml" />
+        <ElementManifest Location="ImageLink\Elements.xml" />
+        <ElementManifest Location="TileClickLink\Elements.xml" />
+        <ElementManifest Location="TileOrder\Elements.xml" />
+        <ElementManifest Location="TitleColor\Elements.xml" />
+        <ElementManifest Location="TitleColorBackground\Elements.xml" />
+        <ElementManifest Location="FancyTilesItem\Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>

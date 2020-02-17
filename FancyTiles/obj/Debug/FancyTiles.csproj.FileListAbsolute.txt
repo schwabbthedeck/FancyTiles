@@ -8,3 +8,6 @@ C:\Users\j.schwab\Documents\FancyTiles\FancyTiles\obj\Debug\FancyTiles.csprojAss
 C:\Users\j.schwab\Documents\FancyTiles\FancyTiles\obj\Debug\FancyTiles.csproj.CoreCompileInputs.cache
 C:\Users\j.schwab\Documents\FancyTiles\FancyTiles\obj\Debug\FancyTiles.dll
 C:\Users\j.schwab\Documents\FancyTiles\FancyTiles\obj\Debug\FancyTiles.pdb
+C:\Users\Jane\Documents\GitHub\FancyTiles\FancyTiles\bin\Debug\FancyTiles.pdb
+C:\Users\Jane\Documents\GitHub\FancyTiles\FancyTiles\obj\Debug\FancyTiles.dll
+C:\Users\Jane\Documents\GitHub\FancyTiles\FancyTiles\obj\Debug\FancyTiles.pdb

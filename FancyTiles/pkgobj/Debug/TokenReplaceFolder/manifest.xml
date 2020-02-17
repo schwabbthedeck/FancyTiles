@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="5205ffb9-b534-4aad-8f53-7f481d05a202" SharePointProductVersion="16.0">
   <FeatureManifests>
-    <FeatureManifest Location="FancyTiles_Feature1\Feature.xml" />
+    <FeatureManifest Location="FancyTiles_MainFeature\Feature.xml" />
   </FeatureManifests>
 </Solution>

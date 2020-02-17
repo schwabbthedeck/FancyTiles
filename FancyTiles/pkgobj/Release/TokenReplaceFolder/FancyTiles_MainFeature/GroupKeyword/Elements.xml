@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{ed9b04b4-c013-419a-bd40-f1d0456a32ab}"
+       Name="GroupKeyword"
+       DisplayName="Group Keyword"
+       Description="Keyword used to specify what tiles should be shown in the web part."
+       Type="Text"
+       Required="FALSE"
+       Group="Custom Site Columns">
+  </Field>
+</Elements>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{b565ba7d-2fe7-4a84-9480-da3a25d68c6a}"
+       Name="TileOrder"
+       DisplayName="Tile Order"
+       Description="Order in which tiles should appear. When left blank, items will default to order in which items are created. A tile with a blank Tile Order field will show before any items with numbers in this field."
+       Type="Number"
+       Required="FALSE"
+       Group="Custom Site Columns">
+  </Field>
+</Elements>

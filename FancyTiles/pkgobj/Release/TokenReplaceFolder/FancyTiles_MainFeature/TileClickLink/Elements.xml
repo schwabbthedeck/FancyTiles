@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{64f305e8-a38e-4742-b325-5f3dcee27617}"
+       Name="TileClickLink"
+       DisplayName="Tile Click Link"
+       Description="Click destination of the tile. If left blank, tile will not have a click action."
+       Type="URL"
+       Format="Hyperlink"
+       Required="FALSE"
+       Group="Custom Site Columns">
+  </Field>
+</Elements>

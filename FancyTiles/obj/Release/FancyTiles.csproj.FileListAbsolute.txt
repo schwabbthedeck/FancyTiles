@@ -1,0 +1,4 @@
+C:\Users\Jane\Documents\GitHub\FancyTiles\FancyTiles\bin\Release\FancyTiles.pdb
+C:\Users\Jane\Documents\GitHub\FancyTiles\FancyTiles\obj\Release\FancyTiles.csprojAssemblyReference.cache
+C:\Users\Jane\Documents\GitHub\FancyTiles\FancyTiles\obj\Release\FancyTiles.dll
+C:\Users\Jane\Documents\GitHub\FancyTiles\FancyTiles\obj\Release\FancyTiles.pdb
