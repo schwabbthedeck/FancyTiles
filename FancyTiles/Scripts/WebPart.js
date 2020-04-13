@@ -25,7 +25,7 @@ function renderWebPart() {
   // function to retrieve the list items with the matching group keyword
   function getListItems() {
     var executor = new SP.RequestExecutor(appWebUrl);
-    var url = appWebUrl + "/_api/web/lists/getbytitle('Fancy Tiles List')/items?filter=GroupKeyword eq '" + groupKeyword + "'$select=Title,GroupKeyword,ImageLink,TileClickLink,TitleColor,TitleColorBackground,HoverText,HoverTextDirection,HoverTextColor,HoverColorBackground,TileOrder&$orderby=TileOrder";
+    var url = appWebUrl + "/_api/web/lists/getbytitle('Fancy Tiles List')/items?filter=GroupKeyword eq '" + groupKeyword + "'$select=Title,GroupKeyword,ImageLink,TileClickLink,TitleColor,TitleColorBackground,HoverText,HoverTextDirection,HoverTextColor,HoverColorBackground,TileOrder&$orderby=TileOrder&$top=1000";
     executor.executeAsync({
       url: url,
       method: "GET",

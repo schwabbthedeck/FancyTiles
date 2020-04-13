@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="FancyTiles Feature1" Description="SharePoint Add-in Feature" Id="a526401c-0b57-4276-874a-b85fe25d6cb2" Scope="Web" Version="1.0.0.0">
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="SharePoint Add-in Feature" Id="a526401c-0b57-4276-874a-b85fe25d6cb2" Scope="Web" Title="FancyTiles Feature1" Version="1.1.0.0">
   <ElementManifests>
     <ElementManifest Location="Pages\Elements.xml" />
     <ElementFile Location="Pages\Default.aspx" />

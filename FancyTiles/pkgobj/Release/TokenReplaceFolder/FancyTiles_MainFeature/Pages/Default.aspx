@@ -36,7 +36,7 @@
 				<h2>Adding the web part:</h2>
 				<p>Add the web part as you would add any other web part to the page, then select "Fancy Tiles Web Part".</p>
 				<p>To specify which group the web part should show, update the "Fancy Tiles Group Keyword" property under the "Fancy Tiles Properties" heading.</p>
-				<p><img src="../Images/FancyTileProperty.png" alt="Fancy Tile Propery" width="300"/></p>
+				<p><img src="../Images/FancyTileProperty.png" alt="Fancy Tile Property" width="300"/></p>
 				
     </div>
 
